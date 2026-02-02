@@ -1,7 +1,6 @@
 ---
 import { Font } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
-import { PUBLIC_GOOGLE_SITE_VERIFICATION } from "astro:env/client";
 import { SITE } from "@/config";
 import "@/styles/global.css";
 
@@ -97,20 +96,6 @@ const structuredData = {
         />
       )
     }
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={socialImageURL} />
-
-    <!-- Google JSON-LD Structured data -->
-    <script
-      type="application/ld+json"
-      is:inline
-      set:html={JSON.stringify(structuredData)}
-    />
 
     <!-- Enable RSS feed auto-discovery  -->
     <!-- https://docs.astro.build/en/recipes/rss/#enabling-rss-feed-auto-discovery -->
