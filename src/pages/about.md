@@ -1,37 +1,48 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "About The SALuSYS Platform"
 ---
+Salusys is a systems-based platform dedicated to improving safety across the spaces where life happens—by elevating the products, frameworks, and workflows that shape real environments.
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+## Salus: health as a system
 
-![Astro Paper](public/astropaper-og.jpg)
+The name **Salusys** comes from *Salus*—the Roman concept associated with health, safety, and collective wellbeing. Not health as a single outcome, but as a condition sustained through balance, foresight, and care for the whole.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+In classical thought, wellbeing was shaped by systems: how environments were designed, how risks were managed, and how daily activities interacted over time. Health was not separate from place, process, or structure. It was inseparable from them.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+That understanding is the foundation of the Salusys Platform.
 
-## Features
+## Safety by design, not reaction
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+Salusys is built on a systems-based view of safety.
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+Safer environments are not created by isolated products or reactive measures. They are created when **people, spaces, and operations** are intentionally aligned—so protection, efficiency, and wellbeing reinforce one another.
 
-and so much more.
+We identify and deliver products that function as part of a larger system. Each solution is evaluated not only for what it does on its own, but for how it improves workflows, reduces friction, and contributes to safer environments over time.
 
-## Show your support
+## The meaning of V
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
+The Roman numeral **V** reflects completeness and balance—the idea that meaningful improvement comes from alignment across the parts of a system, not from one intervention.
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
+This principle guides how we select what belongs on the platform: impact is measured by how well solutions integrate, scale, and support long-term safety—not only by how quickly they respond to a single risk.
 
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
+The goal is coherence across the system.
 
-Kyay zuu! 🙏🏼
+## Where we focus
+
+The Salusys Platform concentrates on environments where safety directly shapes outcomes, trust, and daily life:
+
+- **Healthcare** — where safety affects care delivery, staff workflows, and patient wellbeing  
+- **Schools** — where secure environments enable learning and development  
+- **Homes** — where safety should be embedded into everyday living  
+- **Farms** — where people, animals, and environments intersect  
+
+Different settings. One systems approach.
+
+## Our mission
+
+Salusys exists to support safer places by bringing together systems-based products that improve protection, strengthen workflows, and work in the real world.
+
+Not through fear-driven design.  
+Not through one-size-fits-all solutions.  
+But through thoughtful integration, clarity, and long-term impact.
