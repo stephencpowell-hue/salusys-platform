@@ -1,26 +1,33 @@
 ---
-import { Moon as IconMoon, Sun as IconSunHigh, X as IconX, Menu as IconMenuDeep, Archive as IconArchive } from "lucide-react";
 import IconX from "@/assets/icons/IconX.svg";
+import IconMoon from "@/assets/icons/IconMoon.svg";
+import IconSearch from "@/assets/icons/IconSearch.svg";
+import IconArchive from "@/assets/icons/IconArchive.svg";
+import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
+import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
 import LinkButton from "./LinkButton.astro";
 import { SITE } from "@/config";
+import Logo from "@public/images/salusys-wordmark-only.webp"; 
 
 // normalize BASE_URL to always end with "/"
 const base = import.meta.env.BASE_URL.endsWith("/")
   ? import.meta.env.BASE_URL
   : import.meta.env.BASE_URL + "/";
+
 const u = (p: string) => base + p.replace(/^\/+/, "");
+
+const { pathname } = Astro.url;
 
 // Remove trailing slash from current pathname if exists
 const currentPath =
   pathname.endsWith("/") && pathname !== "/" ? pathname.slice(0, -1) : pathname;
 
 const isActive = (path: string) => {
-  const currentPathArray = currentPath.split("/").filter((p) => p.trim());
-  const pathArray = path.split("/").filter((p) => p.trim());
+  const currentPathArray = currentPath.split("/").filter((p: string) => p.trim());
+  const pathArray = path.split("/").filter((p: string) => p.trim());
   return currentPath === path || currentPathArray[0] === pathArray[0];
 };
 ---
-
 <a
   id="skip-to-content"
   href="#main-content"
@@ -41,17 +48,8 @@ const isActive = (path: string) => {
       "flex items-baseline justify-between sm:items-center",
     ]}
   >
-<a
-  href={base}
-  class="absolute py-1 whitespace-nowrap sm:static sm:my-auto sm:leading-none flex items-center"
->
-  <img
-    src={`${base}images/salusys-wordmark-only.webp`}
-    alt="Salusys Platform"
-    class="h-8 w-auto"
-    loading="eager"
-    decoding="async"
-  />
+<a href={base} class="absolute sm:static sm:my-auto flex items-center" aria-label="Salusys Platform home">
+  <img src={Logo} alt="Salusys Platform" class="h-7 sm:h-8 w-auto" loading="eager" />
 </a>
     <nav
       id="nav-menu"
