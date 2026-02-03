@@ -1,6 +1,6 @@
 ---
 import { SITE } from "@/config";
-
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
 type StringTitle = { pageTitle: string };
 type ArrayTitle = { pageTitle: [string, string]; titleTransition: string };
 
@@ -11,7 +11,7 @@ const { props } = Astro;
 const backUrl = SITE.showBackButton ? Astro.url.pathname : "/";
 ---
 
-<Breadcrumb />
+{/* <Breadcrumbs /> */}
 <main data-backUrl={backUrl} id="main-content" class="app-layout pb-4">
   {
     "titleTransition" in props ? (
